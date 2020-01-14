@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Farazpardazan.Media</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.MongoDB" Version="2.0.0" />
+    <ProjectReference Include="..\Farazpardazan.Media.Domain\Farazpardazan.Media.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
